@@ -1,0 +1,128 @@
+html, body, div, h1, h2, h3, h4, h5, h6, ul, ol, dl, li, dt, dd, p, blockquote,pre, form, fieldset, table, th, td { 
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  color: black;
+  font-family: Arial, sans-serif;
+  font-size: small;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+header {
+  background-color: white;
+  height: 50px;
+  padding: 5px;
+  width: auto;
+}
+
+#main {
+  background-color: white;
+  margin-left: 300px;
+  margin-right: 300px;
+  padding-left: 230px;
+  padding-right: 230px;
+  text-align: center;
+  width: auto;
+}
+
+footer {
+  background-color: #d3d3d3;
+  border-style: solid;
+  border-color: gray;
+  border-width: 1px;
+  padding: 7px;
+}
+
+.header-link {
+  display: inline-block;
+  padding: 10px;
+  text-align: center;
+}
+
+#header-right {
+  display: inline-block;
+  float: right;
+}
+
+#search-panel {
+  background-color: white;
+  border-style: solid;
+  border-width: 1px;
+  border-color: gray;
+  float: center;
+  height: 35px;
+  width: 470px;
+}
+
+#search {
+  border-width: 0px;
+  float: left;
+  height: 30px;
+  width: 400px;
+}
+
+.search-icon {
+  float: left;
+  text-align: center;
+}
+
+#menu-link {
+  color: blue;
+}
+
+#button-panel {
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+.search-button {
+  padding: 10px 25px 10px 25px;
+  border-style: none;
+  color: gray;
+}
+
+.search-button:hover {
+  border-style: solid;
+  border-width: 1px;
+  border-color: gray;
+  color: black;
+}
+
+#language {
+  padding-bottom: 5px;
+  padding-top: 5px;
+}
+
+#upper-footer {
+  border-bottom: none;
+  font-size: 125%;
+}
+
+#lower-footer-left {
+  display: inline-block;
+}
+
+#lower-footer-right {
+  display: inline-block;
+  float: right;
+}
+
+.footer-link {
+  display: inline-block;
+  padding: 5px;
+}
+
+#empty-div {
+  height: 220px;
+}
+
